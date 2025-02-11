@@ -1,9 +1,9 @@
-const express = require("express")
+const express = require("express");
 
-const server = express()
+const server = express();
 
 server.get('/', (req, res) => {
-    res.send("Hello world")
+    res.send("Hello students!");
 })
 
-server.listen(3000)
+server.listen(3000);
